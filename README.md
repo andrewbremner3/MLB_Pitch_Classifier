@@ -12,4 +12,11 @@ These include:
 
 The package used for accessing the statcast data is: https://pypi.org/project/baseball-scraper/
 
-Pitch_Data.csv file is provided since accessing the statcast data can take some time, so just import the .csv into pandas for faster use.
+Pitch_Data_small.csv file is provided since accessing the statcast data can take some time, so just import the .csv into pandas for faster use.
+
+## Results on small data set (provided)
+The accuracy score results of the small data set are:
+* RandomForest was 0.87781, in a time of 7.40s
+* LogisticRegression was 0.76005, in a time of 1.43s
+
+<img src="./images/ComparisonSmall.png" alt="Small Data set Compare">
